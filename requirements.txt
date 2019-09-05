@@ -1,0 +1,8 @@
+pyecharts
+requests
+pandas
+numpy
+matplotlib
+scipy
+sympy
+nose

@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+
+  jupyterlab:
+    image: win7/jupyterlab:v1.1.1
+    container_name: jupyterlab
+    restart: always
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./work:/data
