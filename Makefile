@@ -6,7 +6,7 @@ all: build-image
 
 .PHONY: build-image
 build-image:
-	@echo ">> build mysql image"
+	@echo ">> build jupyterlab image"
 	@docker build -t ${IMAGE_NAME}:${TAG} -f Dockerfile .
 
 .PHONY: push
